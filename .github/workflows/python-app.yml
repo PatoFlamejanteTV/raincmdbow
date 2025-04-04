@@ -25,4 +25,4 @@ jobs:
         python-version: "3.10"
     - name: Main
       run: |
-        man cat | python3 raincmdbow.py -p
+        curl https://patoflamejantetv.github.io/res/test.txt | python3 raincmdbow.py -p -i 0.01
