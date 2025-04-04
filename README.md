@@ -1,8 +1,14 @@
-# raincmdbow 
-Rainbow. Text.
+<H1>raincmdbow</H1>
+<p>Rainbow. Text.</p>
+<br>
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=ZxhP7EIwcQU">
+         <img src="https://img.youtube.com/vi/ZxhP7EIwcQU/0.jpg" style="width:50%;">
+      </a>
+</div>
 
-## Args
-```
+<h1>Args</h1>
+<pre>
 parser.add_argument(
         "--delay", "-d", type=float, default=0.05,
         help="Delay between rows in seconds (default: 0.05)"
@@ -31,4 +37,4 @@ parser.add_argument(
         "--pipe", "-p", action="store_true",
         help="Process piped input instead of generating rainbow screen"
     )
-```
+</pre>
