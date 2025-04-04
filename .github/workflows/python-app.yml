@@ -26,3 +26,4 @@ jobs:
     - name: Main
       run: |
         curl https://patoflamejantetv.github.io/res/test.txt | python3 raincmdbow.py -p -i 0.01
+        curl https://patoflamejantetv.github.io/res/test.txt | python3 raincmdbow.py -p -i 0.001
